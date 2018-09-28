@@ -31,8 +31,7 @@ We use Prismic a lot and notice many annoyances we'd like to fix. So here be dra
 
 ## Install
 
-- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/hlepfoohegkhhmjieoechaddaejaokhf.svg?label=%20">][link-cws]
-- [**Firefox** add-on][link-amo] [<img valign="middle" src="https://img.shields.io/amo/v/refined-prismic-.svg?label=%20">][link-amo]
+Clone this repo, install dependencies and run `yarn build`
 
 ## Customization
 
