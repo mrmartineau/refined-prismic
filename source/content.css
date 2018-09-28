@@ -24,10 +24,14 @@
 	padding: 0 20px !important;
 }
 
-/* Edit page */
-#app > #viewport > section#editor,
-#app > #viewport > section#preview {
-	background-color: #fff;
+/* Toolbar */
+
+.document-view .toolbar ul.tags {
+	padding: 5px 30px !important;
+}
+
+.document-view .toolbar {
+	height: 40px !important;
 }
 
 .document-view .toolbar .slider .additional {
@@ -35,8 +39,8 @@
 }
 
 .document-view .toolbar .additional > .content .btn-group {
-	padding-top: 17px !important;
-	padding-bottom: 17px !important;
+	padding-top: 4px !important;
+	padding-bottom: 6px !important;
 	border-right: 0 !important;
 }
 
@@ -44,7 +48,16 @@
 	margin-left: 7px !important;
 }
 
-/* TODO: improve icon hover colours  */
+/* Edit page */
+#app > #viewport > section#editor,
+#app > #viewport > section#preview {
+	background-color: #fff;
+}
+
+.document-view .widget.widget-Slices .block .block-commands,
+.document-view .widget.widget-Slices .block > .widget:not(.widget-Groups) {
+	margin: 20px 30px 30px !important;
+}
 
 .document-view section article {
 	padding: 30px 0 0 0 !important;
@@ -58,7 +71,7 @@
 }
 
 .document-view .widget {
-	border-left: 1px solid var(--prismic-grey) !important;
+	/* border-left: 1px solid var(--prismic-grey) !important; */
 }
 
 .document-view .fieldLabel {
