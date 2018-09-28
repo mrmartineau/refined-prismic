@@ -1,0 +1,121 @@
+/**
+ * TODO:
+ * Hide sidebar on small screens
+ */
+
+:root {
+	--prismic-green: #3cc782;
+	--prismic-amber: #f4b761;
+	--prismic-purpleLight: #9b9bca;
+	--prismic-purple: #5555a0;
+	--prismic-purpleDark: #2d2d68;
+	--prismic-grey: #d9e1ea;
+}
+
+#app nav #main-links .navigation__item a:before {
+	color: var(--prismic-purpleLight) !important;
+}
+
+#app nav #main-links .navigation__item.active a:before {
+	color: var(--prismic-amber) !important;
+}
+
+#app > #viewport section#documents .items .reloadable {
+	padding: 0 20px !important;
+}
+
+/* Edit page */
+#app > #viewport > section#editor,
+#app > #viewport > section#preview {
+	background-color: #fff;
+}
+
+.document-view .toolbar .slider .additional {
+	padding: 0 !important;
+}
+
+.document-view .toolbar .additional > .content .btn-group {
+	padding-top: 17px !important;
+	padding-bottom: 17px !important;
+	border-right: 0 !important;
+}
+
+.btn-group + .btn-group {
+	margin-left: 7px !important;
+}
+
+/* TODO: improve icon hover colours  */
+
+.document-view section article {
+	padding: 30px 0 0 0 !important;
+}
+
+#editor [data-section] > .widget:not(.widget-Slices),
+#maskbuilder [data-section] > .widget:not(.widget-Slices),
+#preview [data-section] > .widget:not(.widget-Slices) {
+	margin-left: 30px !important;
+	margin-right: 30px !important;
+}
+
+.document-view .widget {
+	border-left: 1px solid var(--prismic-grey) !important;
+}
+
+.document-view .fieldLabel {
+	font-size: 14px !important;
+	/* font-weight: bold; */
+	margin-bottom: 10px;
+}
+
+.editor-wrapper .widget-StructuredText .ProseMirror {
+	min-height: 50px !important;
+}
+
+.editor-wrapper .widget-StructuredText .editor-placeholder > p {
+	font-size: 24px !important;
+}
+
+/* Sidebar */
+@media screen and (max-width: 1280px) {
+	#app
+		> div#viewport
+		> section#editor
+		> .reloadable
+		aside
+		.reloadable:not(:empty),
+	#app
+		> div#viewport
+		> section#preview
+		> .reloadable
+		aside
+		.reloadable:not(:empty) {
+		width: 240px !important;
+	}
+
+	#app > #viewport > section#editor > .reloadable .editor-wrapper,
+	#app > #viewport > section#preview > .reloadable .editor-wrapper {
+		max-width: calc(100% - 240px) !important;
+	}
+}
+
+#app > #viewport > section#editor > .reloadable .editor-wrapper,
+#app > #viewport > section#preview > .reloadable .editor-wrapper {
+	max-width: 100% !important;
+}
+
+#app
+	> #viewport
+	> section#editor
+	> .reloadable
+	aside
+	.reloadable
+	.related-versions,
+#app
+	> #viewport
+	> section#preview
+	> .reloadable
+	aside
+	.reloadable
+	.related-versions {
+	padding: 5px !important;
+}

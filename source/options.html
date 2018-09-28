@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Refined Prismic options</title>
+<link rel="stylesheet" href="options.css">
+<link rel="stylesheet" href="chrome://global/skin/in-content/common.css">
+<link rel="stylesheet" href="chrome://mozapps/skin/extensions/extensions.css">
+<form id="options-form" class="detail-view-container">
+	<h2 class="only-firefox">Options</h2>
+
+	<p>
+		<label>
+			<strong>Custom CSS</strong> (useful to undo unwanted styles)<br>
+			<textarea name="customCSS" rows="2" spellcheck="false"></textarea>
+		</label>
+	</p>
+
+	<hr>
+
+	<p>
+		<label>
+			<strong>Features to disable</strong>, by <a href="https://github.com/mrmartineau/refined-prismic/tree/master/source/features"
+			 target="_blank">filename</a> (not advised)<br>
+			<textarea name="disabledFeatures" rows="2" placeholder="For example: &#10;mark-unread hide-own-stars" spellcheck="false"></textarea>
+		</label>
+	</p>
+
+	<hr>
+
+	<p>
+		<label>
+			<input type="checkbox" name="logging"> Show the features enabled on each page in the console
+		</label>
+	</p>
+</form>
+<script src="browser-polyfill.min.js"></script>
+<script src="options.js"></script>
