@@ -16,18 +16,18 @@ We use Prismic a lot and notice many annoyances we'd like to fix. So here be dra
 
 ## Existing features and fixes
 
-- [x] [UI] increased label size on the content edit page
-- [x] [UI] increased contrast for icons in left navigation
-- [x] [UI] reduced sidebar width on the content edit page on thinner viewports
-- [x] [UI] reduced padding within for items on the content edit page
-- [x] [UI] increased button hit-target for rich-text features on content edit page
-- [x] [UI] increased height for new/empty rich-text fields on the content edit page
+- [x] <kbd>UI</kbd> increased label size on the content edit page
+- [x] <kbd>UI</kbd> increased contrast for icons in left navigation
+- [x] <kbd>UI</kbd> reduced sidebar width on the content edit page on thinner viewports
+- [x] <kbd>UI</kbd> reduced padding within for items on the content edit page
+- [x] <kbd>UI</kbd> increased button hit-target for rich-text features on content edit page
+- [x] <kbd>UI</kbd> increased height for new/empty rich-text fields on the content edit page
 
 ## Upcoming features and fixes
 
-- [ ] [JS] collapsible slice areas on content edit page
-- [ ] [UI] larger keys for inputs within custom types interface so that devs can copy the name more easily
-- [ ] [UI] improve the left-hand navigation
+- [ ] <kbd>JS</kbd> collapsible slice areas on content edit page
+- [ ] <kbd>UI</kbd> larger keys for inputs within custom types interface so that devs can copy the name more easily
+- [ ] <kbd>UI</kbd> improve the left-hand navigation
 
 ## Install
 
