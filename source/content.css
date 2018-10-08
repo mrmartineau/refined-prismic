@@ -60,7 +60,7 @@
 }
 
 .document-view section article {
-	padding: 30px 0 0 0 !important;
+	padding: 30px 0 0 !important;
 }
 
 #editor [data-section] > .widget:not(.widget-Slices),
@@ -86,6 +86,37 @@
 
 .editor-wrapper .widget-StructuredText .editor-placeholder > p {
 	font-size: 24px !important;
+}
+
+/* Collapsible slices */
+details.slice {
+	/* border: 1px solid var(--prismic-grey); */
+	/* border-radius: 4px; */
+	padding: 0.5em 0.5em 0;
+}
+
+summary.slice-summary {
+	font-weight: bold;
+	margin: -0.5em -0.5em 0;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
+details.slice[open] {
+	padding: 0.5em;
+}
+
+details.slice[open] summary {
+	/* border-bottom: 1px solid var(--prismic-grey); */
+	margin-bottom: 0.5em;
+}
+
+details.slice .block-commands,
+details.slice .widget-Slice {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 /* Sidebar */
