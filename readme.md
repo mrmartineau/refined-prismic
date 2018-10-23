@@ -22,7 +22,7 @@ We use Prismic a lot and notice many annoyances we'd like to fix. So here be dra
 - <kbd>UI</kbd> reduced padding within for items on the content edit page
 - <kbd>UI</kbd> increased button hit-target for rich-text features on content edit page
 - <kbd>UI</kbd> increased height for new/empty rich-text fields on the content edit page
-- <kbd>JS</kbd> collapsible slice areas on content edit page. Basic version implemented
+- <kbd>JS</kbd> collapsible slice areas on content edit page. Basic version implemented. Disable this feature using this string: `collapse-slices`
 
 ## Upcoming features and fixes
 

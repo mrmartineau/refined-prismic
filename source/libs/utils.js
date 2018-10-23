@@ -1,10 +1,6 @@
-import { h } from 'dom-chef'
-import select from 'select-dom'
-import onetime from 'onetime'
 import domLoaded from 'dom-loaded'
 import elementReady from 'element-ready'
 import OptionsSync from 'webext-options-sync'
-import ghInjection from 'github-injection'
 
 const options = new OptionsSync().getAll()
 
