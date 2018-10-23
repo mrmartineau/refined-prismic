@@ -9,10 +9,20 @@
 
 #### Browser extension that simplifies the Prismic.io interface and adds useful features
 
-[link-cws]: https://chrome.google.com/webstore/detail/refined-prismic/hlepfoohegkhhmjieoechaddaejaokhf 'Version published on Chrome Web Store'
-[link-amo]: https://addons.mozilla.org/en-US/firefox/addon/refined-prismicp/ 'Version published on Mozilla Add-ons'
+🚨 This extension is in **beta** at the moment. Some of the features aren't finished yet.
 
-We use Prismic a lot and notice many annoyances we'd like to fix. So here be dragons.
+🆘 I am actively seeking contributors to help development of this extension. If you're interested, please let me know.
+
+🤔 If you have any suggestions, please submit feature requests [here](https://github.com/mrmartineau/refined-prismic/issues/new?template=feature_request.md)
+
+[link-cws]: https://chrome.google.com/webstore/detail/refined-prismic/fkgbihdffeadajmibmljcdocfdhkilin 'Version published on Chrome Web Store'
+[link-amo]: https://addons.mozilla.org/en-US/firefox/addon/refined-prismic/ 'Version published on Mozilla Add-ons'
+
+## Install
+
+- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/fkgbihdffeadajmibmljcdocfdhkilin.svg?label=%20">][link-cws]
+- Locally:
+Clone this repo, install dependencies and run `yarn build`
 
 ## Existing features and fixes
 
@@ -28,10 +38,6 @@ We use Prismic a lot and notice many annoyances we'd like to fix. So here be dra
 
 - <kbd>UI</kbd> larger keys for inputs within custom types interface so that devs can copy the name more easily
 - <kbd>UI</kbd> always show labels in repo navigation
-
-## Install
-
-Clone this repo, install dependencies and run `yarn build`
 
 ## Customization
 
