@@ -22,7 +22,7 @@
 
 - [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/fkgbihdffeadajmibmljcdocfdhkilin.svg?label=%20">][link-cws]
 - Locally:
-Clone this repo, install dependencies and run `yarn build`
+Clone this repo, install dependencies and run `yarn build`, then follow [the instructions here](https://github.com/mrmartineau/refined-prismic/blob/master/contributing.md#workflow).
 
 ## Existing features and fixes
 
@@ -41,7 +41,7 @@ Clone this repo, install dependencies and run `yarn build`
 
 ## Customization
 
-We're happy to receive suggestions and contributions, but be aware this is a highly opinionated project. There's a very high bar for adding options. Users will always disagree with something. That being said, we're open to discussing things. If something doesn't make the cut, you can [build your customized Refined Prismic locally](https://prismic.com/mrmartineau/refined-prismic/blob/master/contributing.md#workflow), rather than installing it from the Chrome Store.
+We're happy to receive suggestions and contributions, but be aware this is a highly opinionated project. There's a very high bar for adding options. Users will always disagree with something. That being said, we're open to discussing things. If something doesn't make the cut, you can [build your customized Refined Prismic locally](https://github.com/mrmartineau/refined-prismic/blob/master/contributing.md#workflow), rather than installing it from the Chrome Store.
 
 ## Contribute
 
