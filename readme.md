@@ -9,7 +9,7 @@
 
 #### Browser extension that simplifies the Prismic.io interface and adds useful features
 
-🚨 This extension is in **beta** at the moment. Some of the features aren't finished yet.
+🚨 This extension is in **beta** at the moment. Some of the features aren't as _refined_ as I'd like them to be yet.
 
 🆘 I am actively seeking contributors to help development of this extension. If you're interested, please let me know.
 
